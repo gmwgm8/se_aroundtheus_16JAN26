@@ -4,7 +4,7 @@ Project 3 Walkthrough
 https://drive.google.com/file/d/139kcQdMhVcHj6eFEcsLL6P6sMpX-CInc/view?usp=sharing
 
 GitHub repository:
-https://github.com/gmwgm8/AroundTheUS_FINAL.git
+https://gmwgm8.github.io/se_aroundtheus_16JAN26/
 
 
 Rough Description:
@@ -53,6 +53,7 @@ Project 7:
 Refactoring and organization using Modules as opposed to using validator.js which was used as reference then discarded. Two modules or "components" were added, Card.js and FormValidator.js. The card module will handles all of the functionality required when interacting with cards deleting, creating, modifying, previewing, etc. FormValidator will do the same as validator.js, but will be significantly refactored using OOP principles, for example use of constructor and tying things into the module functionality using "this." which allows syntax to refer to itself instead of more cumbersome ways of attaching methods and functions. Also, we used Import and Export methodology to integrate Card and FormValidator modules into index.js. 
 
 Finally, we slightly restructored our file structure getting rid of "scripts" and creating a "components" folder that would hold Card and FormValidator. The "Pages"folder now holds index.js and index.css. Again, validator.js becaume obsolete so then it was deleted. The rest of the project folder remained the same. 
+
 
 
 
