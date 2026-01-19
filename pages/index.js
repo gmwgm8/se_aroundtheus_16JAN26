@@ -156,8 +156,6 @@ function setupEventListeners() {
   });
 }
 
-setupEventListeners();
-initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
 
 const editFormValidator = new FormValidator(
   validationConfig,
@@ -172,6 +170,8 @@ const addFormValidator = new FormValidator(
 editFormValidator.enableValidation();
 addFormValidator.enableValidation();
 
+setupEventListeners();
+initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
 
 
 
