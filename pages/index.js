@@ -128,11 +128,13 @@ function setupEventListeners() {
   profileEditButton.addEventListener("click", () => {
     nameInput.value = profileTitle.textContent;
     jobInput.value = profileDescription.textContent;
+    editFormValidator.resetValidation();
     openModal(editProfileModal);
   });
 
   addNewCardButton.addEventListener("click", () => {
     addCardFormElement.reset();
+    addFormValidator.resetValidation();
     openModal(addCardModal);
   });
 
@@ -166,10 +168,10 @@ const addFormValidator = new FormValidator(
   addCardFormElement
 );
 
-editFormValidator.resetValidation();
-addFormValidator.resetValidation();
+
 editFormValidator.enableValidation();
 addFormValidator.enableValidation();
+
 
 
 
