@@ -133,7 +133,6 @@ function setupEventListeners() {
   });
 
   addNewCardButton.addEventListener("click", () => {
-    addCardFormElement.reset();
     addFormValidator.resetValidation();
     openModal(addCardModal);
   });
@@ -172,6 +171,7 @@ addFormValidator.enableValidation();
 
 setupEventListeners();
 initialCards.forEach((cardData) => renderCard(cardData, cardsWrap));
+
 
 
 
