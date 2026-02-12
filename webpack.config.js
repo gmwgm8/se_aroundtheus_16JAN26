@@ -10,7 +10,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index.js",
-    publicPath: "",
+    publicPath: "/se_aroundtheus_12FEB26/",
   },
 
   mode: "development",
@@ -60,3 +60,4 @@ module.exports = {
     new MiniCssExtractPlugin(),
   ],
 };
+
