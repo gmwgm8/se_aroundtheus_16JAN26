@@ -4,7 +4,7 @@ Project 3 Walkthrough
 https://drive.google.com/file/d/139kcQdMhVcHj6eFEcsLL6P6sMpX-CInc/view?usp=sharing
 
 GitHub repository:
-https://gmwgm8.github.io/se_aroundtheus_16JAN26/
+https://gmwgm8.github.io/se_aroundtheus_12FEB26/
 
 
 Rough Description:
@@ -64,6 +64,7 @@ Section.js - Card rendering utility
 UserInfo.js - User profile management
 
 Use of webpack, babel js transpiler, postcss for either connecting different files, updating js scripts or css to older syntax automatically.
+
 
 
 
