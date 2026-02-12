@@ -164,7 +164,7 @@
   color: #c4c4c4;
   background-color: transparent;
   border-color: #c4c4c4;
-  cursor: not-allowed
+  cursor: not-allowed;
   transform: none;
   box-shadow: none;
 }
@@ -215,3 +215,4 @@
     max-height: 299px;
   }
 }
+
